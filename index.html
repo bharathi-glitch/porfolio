@@ -8,14 +8,14 @@
 <style>
 body{
   margin:0;
-  font-family:Arial;
+  font-family:Arial, sans-serif;
   background:#0f172a;
   color:white;
   text-align:center;
 }
 
 header{
-  padding:60px 20px;
+  padding:50px 20px;
 }
 
 img{
@@ -28,43 +28,43 @@ img{
 
 h1{
   color:#38bdf8;
-  font-size:40px;
-}
-
-.typing{
-  color:#cbd5e1;
-  font-size:18px;
-}
-
-.btn{
-  display:inline-block;
-  margin-top:20px;
-  padding:10px 20px;
-  background:#38bdf8;
-  color:black;
-  border-radius:8px;
-  text-decoration:none;
-  font-weight:bold;
 }
 
 section{
-  padding:50px 20px;
+  padding:40px 20px;
 }
 
 .card{
   background:#1e293b;
   padding:20px;
-  margin:10px;
-  border-radius:10px;
-  display:inline-block;
-  width:250px;
+  margin:15px auto;
+  border-radius:12px;
+  width:300px;
+  transition:0.3s;
 }
 
-footer{
-  padding:20px;
-  background:#020617;
+.card:hover{
+  transform:scale(1.05);
+  background:#334155;
+}
+
+a{
+  color:#38bdf8;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 20px;
+  background:#38bdf8;
+  color:black;
+  border-radius:8px;
+  text-decoration:none;
 }
 </style>
+
 </head>
 
 <body>
@@ -72,39 +72,67 @@ footer{
 <header>
 <img src="profile.jpg" alt="profile">
 <h1>Bharathi</h1>
-<p class="typing">Frontend Developer | Web Designer | Graphic Designer</p>
+<p>Frontend Developer | Web Designer | Graphic Designer</p>
 <a class="btn" href="#contact">Contact Me</a>
 </header>
 
 <section>
 <h2>About Me</h2>
-<p>I am passionate about creating modern websites and learning new technologies.</p>
+<p>I am passionate about web development and creating modern websites.</p>
 </section>
 
 <section>
 <h2>Skills</h2>
 <div class="card">HTML</div>
 <div class="card">CSS</div>
-  <div class="card">PHP</div>
-  <div class="card">Python</div>
+<div class="card">PHP</div> 
+<div class="card">Python</div>
 <div class="card">JavaScript</div>
 <div class="card">GitHub</div>
 </section>
 
 <section>
-<h2>Projects</h2>
-<div class="card">Portfolio Website</div>
-<div class="card">Landing Page</div>
+<h2>My Projects</h2>
+
+<div class="card">
+<h3>Fish Market Website</h3>
+<p>Responsive fish market website with product listing UI.</p>
+<a href="https://github.com/yourusername/fishmarket" target="_blank">View Project</a>
+</div>
+
+<div class="card">
+<h3>Car Showroom Website</h3>
+<p>Modern car showroom website with car showcase system.</p>
+<a href="https://github.com/yourusername/carshowroom" target="_blank">View Project</a>
+</div>
+
+<div class="card">
+<h3>JAC Blood Bank System</h3>
+<p>Blood donor management web application system.</p>
+<a href="https://github.com/yourusername/bloodbank" target="_blank">View Project</a>
+</div>
+
+</section>
+
+<section>
+<h2>Designs</h2>
+
+<div class="card">
+<img src="banner1.jpg" style="width:100%; border-radius:10px;">
+<p>Banner Design</p>
+</div>
+
+<div class="card">
+<img src="poster1.jpg" style="width:100%; border-radius:10px;">
+<p>Poster Design</p>
+</div>
+
 </section>
 
 <section id="contact">
 <h2>Contact</h2>
 <p>Email: bharathimurugan413@gmail.com</p>
 </section>
-
-<footer>
-© 2026 Bharathi Portfolio
-</footer>
 
 </body>
 </html>
